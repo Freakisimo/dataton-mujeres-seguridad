@@ -11,4 +11,12 @@ def get_c5_files() -> list:
         path='/tmp/c5/',
         label='a',
         innertext='Descargar'
-        )
+    )
+
+@asset
+def upload_c5_files(get_c5_files: list) -> None:
+    upload_s3_files(
+            files=get_c5_files, 
+            start_path='/tmp/',
+            bucket='datos-cdmx'
+    )
