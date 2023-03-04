@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+data_integration/__init__.py
+data_integration/assets.py
+data_integration/scrapper.py
+data_integration/utils.py
+data_integration.egg-info/PKG-INFO
+data_integration.egg-info/SOURCES.txt
+data_integration.egg-info/dependency_links.txt
+data_integration.egg-info/requires.txt
+data_integration.egg-info/top_level.txt

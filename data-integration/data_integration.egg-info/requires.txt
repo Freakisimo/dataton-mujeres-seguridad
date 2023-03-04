@@ -1,0 +1,10 @@
+dagster
+dagster-cloud
+requests
+pandas
+bs4
+boto3
+
+[dev]
+dagit
+pytest
